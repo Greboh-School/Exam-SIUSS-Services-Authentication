@@ -17,7 +17,7 @@ public class IdentitiesController(IIdentityService identityService, ILogger<Iden
     {
         var result = await identityService.Create(request);
 
-        return CreatedAtAction(nameof(Get), new { id = result.UserId }, result);
+        return CreatedAtAction(nameof(Get), new { userId = result.UserId }, result);
     }
 
     [HttpGet("{userId:guid}")]
