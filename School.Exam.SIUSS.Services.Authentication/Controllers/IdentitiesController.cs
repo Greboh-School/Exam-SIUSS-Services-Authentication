@@ -23,7 +23,7 @@ public class IdentitiesController(IIdentityService identityService, ILogger<Iden
     [HttpGet("{userId:guid}")]
     [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ApplicationUserDTO))]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    [Authorize("game:admin")]
+    [Authorize("game:user")]
     public async Task<ActionResult<ApplicationUserDTO>> Get([FromRoute] Guid userId)
     {
         var result = await identityService.GetByUserId(userId);

@@ -4,7 +4,6 @@ using Mapster;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.JsonWebTokens;
-using Microsoft.VisualBasic;
 using School.Exam.SIUSS.Services.Authentication.Models.DTOs;
 using School.Exam.SIUSS.Services.Authentication.Models.Entities;
 using School.Exam.SIUSS.Services.Authentication.Models.Requests;

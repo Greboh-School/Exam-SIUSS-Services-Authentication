@@ -38,7 +38,7 @@ public class TokenService : ITokenService
     public async Task<string> Create(ApplicationUser entity)
     {
         var claims = await _userManager.GetClaimsAsync(entity);
-
+        
         var accessToken = CreateToken(claims);
         
         _logger.LogInformation("{username} with id: {id} successfully logged in!", entity.UserName, entity.Id);
