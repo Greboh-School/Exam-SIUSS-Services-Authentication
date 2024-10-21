@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{581724E0-2D57-41C1-9C4D-3FEFB66372AD}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+		.dockerignore = .dockerignore
+		NuGet.config = NuGet.config
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School.Exam.SIUSS.Services.Authentication", "School.Exam.SIUSS.Services.Authentication\School.Exam.SIUSS.Services.Authentication.csproj", "{D8E6D74C-8DCE-4708-8710-7A36372F5D1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School.Exam.SIUSS.Services.Authentication.Models", "School.Exam.SIUSS.Services.Authentication.Models\School.Exam.SIUSS.Services.Authentication.Models.csproj", "{537533D3-776B-452E-ABBA-F8A57D44E780}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{443F481B-7E98-4949-B02A-8F3E4DA19873}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School.Exam.SIUSS.Services.Authentication.UnitTests", "School.Exam.SIUSS.Services.Authentication.UnitTests\School.Exam.SIUSS.Services.Authentication.UnitTests.csproj", "{4698A067-BC7E-4B4C-93F9-B34C9986AA9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School.Exam.SIUSS.Services.Authentication.IntegrationTests", "School.Exam.SIUSS.Services.Authentication.IntegrationTests\School.Exam.SIUSS.Services.Authentication.IntegrationTests.csproj", "{00BD63D8-10DD-46CC-B651-0A165A0B727F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8E6D74C-8DCE-4708-8710-7A36372F5D1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8E6D74C-8DCE-4708-8710-7A36372F5D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8E6D74C-8DCE-4708-8710-7A36372F5D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8E6D74C-8DCE-4708-8710-7A36372F5D1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{537533D3-776B-452E-ABBA-F8A57D44E780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{537533D3-776B-452E-ABBA-F8A57D44E780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{537533D3-776B-452E-ABBA-F8A57D44E780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{537533D3-776B-452E-ABBA-F8A57D44E780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4698A067-BC7E-4B4C-93F9-B34C9986AA9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4698A067-BC7E-4B4C-93F9-B34C9986AA9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4698A067-BC7E-4B4C-93F9-B34C9986AA9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4698A067-BC7E-4B4C-93F9-B34C9986AA9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00BD63D8-10DD-46CC-B651-0A165A0B727F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00BD63D8-10DD-46CC-B651-0A165A0B727F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00BD63D8-10DD-46CC-B651-0A165A0B727F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00BD63D8-10DD-46CC-B651-0A165A0B727F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4698A067-BC7E-4B4C-93F9-B34C9986AA9D} = {443F481B-7E98-4949-B02A-8F3E4DA19873}
+		{00BD63D8-10DD-46CC-B651-0A165A0B727F} = {443F481B-7E98-4949-B02A-8F3E4DA19873}
+	EndGlobalSection
+EndGlobal

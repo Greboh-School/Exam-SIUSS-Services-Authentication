@@ -1,0 +1,20 @@
+name: Publish image
+on:
+  push:
+    branches: ['main']
+  pull_request:
+    branches: ['main']
+    
+permissions:
+  contents: write
+  pull-requests: write
+  statuses: write
+  packages: write
+  checks: write
+  
+jobs:
+  build:
+    uses: Greboh-school/shared-pipelines/.github/workflows/dotnet-service-image-publish.yaml@main
+    secrets: inherit
+    with:
+      repository: "services-authentication"
